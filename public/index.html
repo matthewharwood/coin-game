@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <h1>This is my First Solo Game Made in Unity</h1>
-    <p>I've been trying to do at least 1 hour a day in unity. This Game is day 7</p>
-    <figure>
-    <iframe wdth="560" height="315" src="https://www.youtube.com/embed/bMClnZUSr-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <figcaption>A time-lapse of the 3 hours it took to make this.</figcaption>
-    </figure>
+    <div style="position: relative;
+    width: 967px;
+    margin: 0 auto; font-family: sans">
+      <h1>This is my First Solo Game Made in Unity</h1>
+      <p>I've been trying to do at least 1 hour a day in unity. This Game is day 7</p>
+      <figure style="margin: 0">
+      <iframe wdth="560" height="315" src="https://www.youtube.com/embed/bMClnZUSr-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <figcaption>A time-lapse of the 3 hours it took to make this.</figcaption>
+      </figure>
+    </div>
+    <div style="    position: relative;
+    height: 100vh;">
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas"></canvas>
       <div id="unity-loading-bar">
@@ -27,6 +33,7 @@
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Coin Game</div>
       </div>
+    </div>
     </div>
     <script>
       var buildUrl = "Build";
